@@ -1,0 +1,15 @@
+# Unreviewed exports and local working material
+private/
+work/
+raw-exports/
+.env
+.env.*
+*.evtx
+*.pcap
+*.pcapng
+*.exe
+*.tgz
+*.zip
+*.log
+Thumbs.db
+.DS_Store
