@@ -1,0 +1,3 @@
+index=botsv1 earliest=1470866160 latest=1470866190 sourcetype=stream:http "agent.php"
+| eval body=substr(form_data,1,500),request_start=timestamp,request_end=endtime
+| table _time request_start request_end src_ip dest_ip http_method uri status body

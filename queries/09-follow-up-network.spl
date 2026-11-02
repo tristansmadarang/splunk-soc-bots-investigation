@@ -1,0 +1,2 @@
+index=botsv1 earliest=1470866160 latest=1470868200 sourcetype=XmlWinEventLog host=we1149srv "<EventID>3</EventID>" "3791.exe"
+| table _time host _raw

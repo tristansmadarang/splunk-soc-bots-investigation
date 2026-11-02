@@ -1,0 +1,5 @@
+index=botsv1 earliest=0 latest=now sourcetype=stream:http dest_ip=192.168.250.70 "agent.php"
+| eval body=substr(form_data,1,250)
+| sort 0 _time
+| head 12
+| table _time src_ip http_method uri status body

@@ -1,0 +1,1 @@
+index=botsv1 earliest=0 latest=now sourcetype=stream:http "3791.exe" | search dest_content="*Upload successful*" | rex max_match=0 "(?<files>3791[.]exe|agent[.]php)" | eval files=mvdedup(files) | table _time c_ip dest_ip files dest_content

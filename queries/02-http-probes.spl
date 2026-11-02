@@ -1,0 +1,4 @@
+index=botsv1 earliest=0 latest=now sourcetype=stream:http ("whoami" OR "cmd.exe" OR "powershell" OR "3791.exe" OR "upload" OR "base64_decode")
+| sort 0 _time
+| head 12
+| table _time src_ip dest_ip http_method url form_data status _raw

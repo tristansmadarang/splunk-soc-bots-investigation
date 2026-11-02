@@ -1,0 +1,4 @@
+index=botsv1 earliest=0 latest=now (sourcetype=XmlWinEventLog OR sourcetype=WinEventLog) "3791.exe"
+| sort 0 _time
+| head 5
+| table _time host _raw

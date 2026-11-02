@@ -1,0 +1,2 @@
+| tstats count min(_time) AS first_epoch max(_time) AS last_epoch where index=* earliest=0 latest=now by index sourcetype
+| convert ctime(first_epoch) ctime(last_epoch)
