@@ -1,0 +1,4 @@
+evidence_id,time_utc,src_ip,dest_ip,http_method,uri,status,observation
+E01,2016-08-10T21:37:01.592646Z,40.80.148.42,192.168.250.70,GET,/scripts/..%E0%80%AF../..%E0%80%AF../..%E0%80%AF../winnt/system32/cmd.exe?/c+dir,404,Acunetix WVS/10.0 header; response Not Found
+E02,2016-08-10T21:50:31.324Z,40.80.148.42,192.168.250.70,POST,/joomla/administrator/index.php?option=com_installer&view=install,303,URL-encoded PHP begins in install_package field; sampled result
+E02,2016-08-10T21:55:22.673Z,23.22.63.114,192.168.250.70,GET,/joomla/agent.php,200,Early displayed PHP-path request; sampled result

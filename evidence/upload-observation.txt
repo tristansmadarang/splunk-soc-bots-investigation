@@ -1,0 +1,26 @@
+E03 — selected transcription from stream:http, BOTS v1
+Acquired by UI review: 2026-11-02
+Native export: no
+
+Upload transaction:
+timestamp = 2016-08-10T21:52:45.437445Z
+endtime = 2016-08-10T21:52:47.035555Z
+displayed _time = 2016-08-10 21:52:47.035
+c_ip = 40.80.148.42
+src_ip = absent from the displayed table
+dest_ip = 192.168.250.70
+content_disposition includes:
+  form-data; name="userfile[0]"; filename="3791.exe"
+  form-data; name="userfile[1]"; filename="agent.php"
+dest_content = {'action':'upload','message':'Upload successful!','error':'Upload successful!','success':true}
+dest_headers status line = HTTP/1.1 200 OK
+
+Subsequent directory listing:
+displayed _time = 2016-08-10 21:52:48.889
+src_ip = 40.80.148.42
+dest_ip = 192.168.250.70
+uri = /joomla/administrator/index.php
+status = 200
+form_data = start=0&limit=150&dir=/joomla&option=com_extplorer&action=getdircontents&sendWhat=both
+
+Session cookies and unrelated response content omitted.
